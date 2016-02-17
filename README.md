@@ -32,3 +32,22 @@ He told everybody to use only 4 and 7 for number system.
 |10524  |4744744477747    |
 
 
+
+**How to**
+
+
+I try to parse value to binary.
+and then check the last bit of binary.
+
+If it equal to "1" then I will parse it to "4" and 
+recursive this with value divide by 2 (same as shift right 1 time)
+
+If it equal to "0", I will parse it to "7"
+but I will subtract it by 1 before recursive same as above.
+
+
+Ps. this is a one solution, you can use loop to solve that
+but it will take a lot time to calculate this.
+
+
+
